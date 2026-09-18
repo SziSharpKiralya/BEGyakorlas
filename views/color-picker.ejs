@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            color: <%= color %>;
+        }
+    </style>
+
+</head>
+<body>
+    <form action="/color-picker">
+        <input type="color" id="colorPicker" name="color" value="<%= color %>">
+        <input type="submit" value="Submit">
+        <h1>Color Picker</h1>
+    </form>
+</body>
+</html>
