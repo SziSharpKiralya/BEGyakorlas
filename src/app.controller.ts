@@ -28,7 +28,7 @@ export class AppController {
       addA: addA || '0',
       addB: addB || '0',
       addC: addC || '0',
-      result: 'Result will be displayed here'
+      result: `${addA}x² + ${addB}x + ${addC} = 0`
     }
   }
 }
